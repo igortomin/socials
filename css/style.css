@@ -1,0 +1,272 @@
+@font-face {
+    font-family: Arp;
+    src: url(/fonts/arp.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Noto Sans NKo', sans-serif;
+    font-size: 2.25vh;
+    background-color:  #F5D76E;
+}
+h1,h2,h3{
+    font-family: Arp;
+}
+nav{
+    height: 100px;
+    display: flex;
+}
+ nav ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    margin-right: 100px;
+ }
+ nav li{
+    font-size: 1.4rem;
+    text-align: center;
+    height: 100%;
+    line-height: 146px;
+    padding-right: 44px;
+    list-style: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+ }
+ nav a{
+    color: black;
+    text-decoration: none;
+ }
+ nav a:hover{
+    color: black;
+ }
+ nav a::after{
+    color: black;
+ }
+#hrNav{
+    width: 90%;
+    margin: 40px auto;
+    height: 2px;
+    background-color: black;
+ }
+ #getStarted{
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    margin-top: 35px;
+    margin-right: 120px;
+    font-size: 1.5rem;
+    border:4px solid black;
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+ }
+ #logoText{
+    font-size: 3rem;
+    line-height: 146px;
+    font-family: Arp;
+    position: relative;
+    left: 100px;
+ }
+.welcomeBlock{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.welcomeLeft img{
+    width: 472px;
+}
+.welcomeRight{
+    margin-left: 4rem;
+}
+h1{
+    font-size: 5.1rem;
+}
+#welcomep1{
+    margin-top: 3rem;
+}
+#contactUs{
+    width: 200px;
+    height: 60px;
+    border: 3px solid black;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    -webkit-box-shadow: 7px 7px 0px 0px #000000; 
+    box-shadow: 7px 7px 0px 0px #000000;
+}
+.runningText{
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+.runningLine1{
+    display: flex;
+}
+.runningLine2{
+    display: flex;
+}
+.spangrey, .spanwhite{
+    font-size: 3rem;
+}
+.spangrey{
+    color:grey;
+    margin:0 30px;
+    font-family: 'Kanit', sans-serif;
+}
+.spanwhite{
+    color:white;
+    margin:0 30px;
+    font-family: 'Kanit', sans-serif;
+}
+.hrd{
+    width: 4px;
+    background-color: aliceblue;
+    transform: rotate(90deg);
+    margin: 13px 20px;
+    height: 44px;
+}
+.services{
+    background-color: white;
+    width: 100%;
+}
+.services h2{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 8rem;
+}
+.services p{
+    width:800px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.servicesBox1, .servicesBox2{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+.servicesBox1{
+    margin-top:80px;
+}
+.service{
+    width: 400px;
+    height: 250px;
+    border:1px solid black;
+    margin:15px;
+}
+.service:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.recent{
+    background-color: white;
+    padding-top: 200px;
+    height: 40rem;
+}
+.recentWrap{
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+}
+.recentEx{
+    width: 30rem;
+    height: 20rem;
+    border:1px solid grey;
+    margin: 20px;
+}
+.recent1Pic,.recent2Pic,.recent3Pic{
+    height: 90%;
+    width: 100%;
+    border:1px solid black;
+}
+.recent h2{
+    text-align: center;
+}
+.recent p{
+    text-align: center;
+    padding-top: 40px;
+}
+.recent1Link p{
+    text-align: left;
+    padding: 0;
+    font-size: 1rem;
+    padding-top:-1px;
+}
+.promoContain{
+    width: 80%;
+    margin: 0 auto;
+    height: 28rem;
+    display: flex;
+    margin-top: 4rem;
+}
+#client{
+    height: 400px;
+}
+#aboutUs{
+    width: 230px;
+    height: 70px;
+    background-color: white;
+    font-size: 1.5rem;
+    border:4px solid black;
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+}
+.promoRight{
+    padding-left: 2rem;
+}
+.promoRight p {
+    padding: 30px 0;
+}
+.promoCircles{
+    display: flex;
+    width:90%;
+    margin:0 auto;
+    justify-content: center;
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15rem;
+    border: 2px solid black;
+    margin: 25px 35px;
+}
+.service_content{
+    width: 90%;
+    height: 90%;
+    margin:0 auto;
+}
+.service_content img{
+    margin: 0 auto;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#backi{
+    opacity: 0.45;
+    max-width: 99vw;
+    position: absolute;
+    top:0;
+    left:0;
+    pointer-events: none;
+}
